@@ -1,26 +1,34 @@
 # 🍷 Wine Quality Analysis
 
-This project analyzes wine quality using physicochemical features and classifies them using a Random Forest model.
+This project analyzes wine quality using physicochemical features and classifies them into quality categories using a Random Forest model. It showcases how machine learning techniques can predict sensory quality from chemical tests.
+
+---
 
 ## 📂 Files Included
 
-- `Wine_Quality_Analysis.ipynb` – Full Colab notebook
-- `winequality.csv` – Dataset
-- `wine_quality_model.pkl` – Trained model
-- `scaler.pkl` – Scaler used for preprocessing
+- `Wine_Quality_Analysis.ipynb` – Full Jupyter/Colab notebook with code and analysis  
+- `winequality.csv` – Dataset used for training and testing  
+- `wine_quality_model.pkl` – Trained Random Forest model saved for reuse  
+- `scaler.pkl` – Scaler used for data preprocessing  
 
-## 📊 Model
+---
 
-- Model used: Random Forest Classifier
-- Accuracy: ~85%
-- Feature Importance: Alcohol > Sulphates > Volatile Acidity
+## 📊 Model Details
 
-## 📌 Tools Used
+- **Algorithm:** Random Forest Classifier  
+- **Accuracy:** Approximately 85%  
+- **Important Features:**  
+  - Alcohol  
+  - Sulphates  
+  - Volatile Acidity  
 
-- Python, Pandas, NumPy
-- Seaborn, Matplotlib
-- Scikit-learn
+---
 
-## ✅ Summary
+## 📌 Tools and Libraries Used
 
-This project demonstrates wine quality classification and highlights how alcohol and acidity impact sensory scores.
+- Python 3  
+- Pandas, NumPy (Data manipulation)  
+- Seaborn, Matplotlib (Visualization)  
+- Scikit-learn (Modeling and evaluation)  
+
+---
